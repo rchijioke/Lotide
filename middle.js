@@ -2,7 +2,7 @@ const eqArrays = require("./eqArrays");
 const { assertArraysEqual } = require("./assertArraysEqual");
 
 const middle = function(optionA) {
-  if (optionA.length < 2) {
+  if (optionA.length <= 2) {
     return [];
   }
   let theMiddle = [];
