@@ -27,7 +27,21 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* ` assertEqual`: description
-* `assertArraysEqual`: description
-* `midde`: description
-* `eqArray`: description
+* ` assertEqual`: description: function to test if the values are equal
+
+* `assertArraysEqual`: description: function with two parameters that compare if the array values are the same
+
+* `midde`: description:
+This block of code defines a function called middle which takes an array as a parameter called optionA. The function checks if the length of optionA is less than 2, and if so, it returns an empty array.
+
+If optionA has a length greater than or equal to 2, the function creates a new array called theMiddle. It then checks if optionA has an odd length, and if so, it calculates the index of the middle element, retrieves that element from optionA, and adds it to theMiddle.
+
+If optionA has an even length, the function calculates the indices of the two middle elements, retrieves them from optionA, and adds them to theMiddle. Finally, the function returns theMiddle.
+
+* `eqArray`: description:
+The eqArrays function takes two arrays as input and checks if they are equal in value and order. If the arrays are not of the same length, the function returns false. It then iterates over the elements of both arrays, and if it finds any mismatched elements, it returns false.
+
+ * `head`: description
+ The purpose of the function below is to return the first element of the input array.
+
+* `tail`: description

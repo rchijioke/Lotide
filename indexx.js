@@ -11,7 +11,7 @@ const eqObjects = require('./eqObjects')
 
 module.exports = {
   head,  
-  tail, 
+  tail,
   middle,
   assertEqual, 
   assertArraysEqual,
