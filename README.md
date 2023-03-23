@@ -48,3 +48,49 @@ If optionA has an even length, the function calculates the indices of the two mi
 
 - `eqObjects`: description
  function eqObjects which will take in two objects and returns true or false, based on a perfect match.
+
+ - `assertObjectsEqual`: description
+  our assertObjectsEqual function which will help us easily test functions that return objects using the 2 parameters listed below
+ @param {*} actual
+  @param {*} expected
+ 
+
+ - `countLetters`: description
+ the countLetters function should take in a sentence  @param {*} sentence (as a string) and then return  @returns a count of each of the letters in that sentenc
+ 
+ - `countOnly`: description
+
+ countOnly function takes in two arrays and returns an object with a count of specific items that appear in the first array according to the second array
+
+ - `findKey`: description
+ the findKey funtion searches through an object to find a specific key based on the result of a callback function provided by the user.
+ its uses
+ * @param {*} object
+ * @param {*} callBack
+ * @returns
+ If none of the callBack function calls return true, the function returns undefined.
+ - `findKeyByValue`: description
+findKeyByValue provides a simple and efficient way to find a key in an object based on a specified value.
+ @param {*} objects: The function uses a for...in loop to iterate through each key in the object
+ @param {*} value: For each key, it checks if the corresponding value of that key matches the given value
+ @returns If it does, the function returns the corresponding key. if it doesn's, it returns undefined
+ 
+ - `flatten`: description
+the code bellow provides a simple and effective way to flatten an array that may contain nested arrays
+@param {*} ary The function flatten takes an array (ary) as its parameter and
+ @returns  returns a flattened version of the input array
+ 
+ - `letterPositions`:
+ desctiption
+  letterPositions function takes in a string and returns an object that maps each unique letter in the string to an array of its corresponding indices in the string, ignoring spaces
+ @param {*} sentence 
+ @returns 
+ 
+ - `map`: description
+   The map funtion takes in an array and a callback function, applies the callback function to each element of the array and returns a new array
+ 
+
+ - `takeUntil`: description
+takeUntil function takes in an array @param {*} array and a callback @param {*} callback function, iterates through the array until the callback function returns @returns true, and returns a new array with all the elements up to the element that triggered the callback function
+ - `without`: descriotion
+  without function removes elements from an array @param {*} source  that are present in another array @param {*} itemsToRemove , and returns @returns a new array with only the remaining element

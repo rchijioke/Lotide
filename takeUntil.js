@@ -1,6 +1,11 @@
 const assertArraysEqual = require("./assertArraysEqual");
 const eqArrays = require("./eqArrays");
 
+
+/**
+ * takeUntil function takes in an array @param {*} array and a callback @param {*} callback function, iterates through the array until the callback function returns @returns true, and returns a new array with all the elements up to the element that triggered the callback function
+ *
+ */
 const takeUntil = function(array, callback) {
   let NewArray = [];
   for (let i of array) {

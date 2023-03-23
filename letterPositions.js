@@ -1,6 +1,11 @@
 const { assertArraysEqual } = require("./assertArraysEqual");
 const eqArrays = require("./eqArrays");
 
+/**
+ * letterPositions function takes in a string and returns an object that maps each unique letter in the string to an array of its corresponding indices in the string, ignoring spaces
+ * @param {*} sentence 
+ * @returns 
+ */
 const letterPositions = function (sentence) {
   const results = {};
   for (let i = 0; i < sentence.length; i++) {

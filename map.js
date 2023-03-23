@@ -1,39 +1,24 @@
-const assertArraysEqual = function(firstOne, secondOne) {
-  if (eqArrays(first, second)) {
-    console.log("Assertion Pass");
-  } else {
-    console.log("Assertion Failed");
-  }
-};
+const { assertArraysEqual } = require("./assertArraysEqual");
+const eqArrays = require("./eqArrays");
 
-const eqArrays = function(first, second) {
-  if (first.length !== second.length) {
-    return false;
-  }
-  for (let i = 0; i < first.length; i++) {
-    if (first[i] !== second[i]) {
-      return false;
-    }
-  }
-  return true;
-};
-
+/**
+ * The map funtion takes in an array and a callback function, applies the callback function to each element of the array and returns a new array
+ */
 const words = ["ground", "control", "to", "major", "tom"];
-const map = function (array, callback) {
+const map = function(array, callback) {
   const results = [];
   for (let item of array) {
-    // console.log('item BEFORE: ', item);
-    // console.log('item AFTER: ', callback(item));
-    // console.log('---');
     results.push(callback(item));
   }
   return results;
 };
 
-// const results1 = map(words, word => word[0]);
+/**
+ * it uses the new result to create a new array "results1" by applying a callback function that extracts the first letter of each word in the "words" array, which is logged to the console.
+ */
 const results1 = map(words, (word) => {
   return word[0];
 });
 console.log(results1);
 
-module.exports = map
+module.exports = map;
