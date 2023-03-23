@@ -21,4 +21,5 @@ const middle = function(optionA) {
   return theMiddle;
 };
 
+
 module.exports = middle;

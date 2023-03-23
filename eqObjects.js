@@ -1,7 +1,7 @@
 const assertEqual = require("./assertEqual");
 let eqArrays = require("./eqArrays");
 /**
- * Implement the definition for function eqObjects which will take in two objects
+ * function eqObjects which will take in two objects
  * @param {*} object1
  * @param {*} object2
  * and returns true or false, based on a perfect match.

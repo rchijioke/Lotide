@@ -18,3 +18,5 @@ const countLetters = function(sentence) {
   c;
 };
 console.log(countLetters("lighthouse labs"));
+
+module.exports = countLetters

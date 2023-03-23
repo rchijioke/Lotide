@@ -45,3 +45,6 @@ If optionA has an even length, the function calculates the indices of the two mi
 
 - `tail`: description
   This code defines an arrow function called tail that takes an array as input. The function returns a new array that contains all elements of the original array except the first one. If the input array has a length of one or less, the function returns the original array.
+
+- `eqObjects`: description
+ function eqObjects which will take in two objects and returns true or false, based on a perfect match.

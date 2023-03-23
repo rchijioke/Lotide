@@ -35,3 +35,5 @@ const results1 = map(words, (word) => {
   return word[0];
 });
 console.log(results1);
+
+module.exports = map

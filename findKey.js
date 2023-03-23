@@ -30,3 +30,5 @@ console.log(
     (x) => x.stars === 2
   )
 ); // => "noma"
+
+module.exports = findKey
